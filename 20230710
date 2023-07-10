@@ -1,0 +1,28 @@
+class Animal{
+	public void makeSound(){
+	
+	}
+} 
+
+
+class Dog extends Animal{
+	@Override
+	public void makeSound(){
+		System.out.println("bow bow");
+	}
+}
+
+class Cat extends Animal{
+	@Override
+	public void makeSound(){
+		System.out.println("meow meow");
+	}
+}
+
+
+class Cow extends Animal{
+	@Override
+	public void makeSound(){
+		System.out.println("Moo Moo");
+	}
+}
